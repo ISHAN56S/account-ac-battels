@@ -7,6 +7,67 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Enter your Details</h1>
+            <div class="input-control">
+                <label for="firstname" style="color:aliceblue;">Firstname :</label>
+                <input id="firstname" name="firstname" type="text" maxlength="30" class="input_area">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" >
+                <label for="lastname" style="color:aliceblue "">Lastname :</label>
+                <input id="lastname" name="lastname" type="text" maxlength="30" class="input_area">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="dob" style="color:aliceblue;">Date Of Birth :</label>
+                <input id="dob" name="dob" type="date" class="input_area" style= " color-scheme: dark">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" >
+                <label for="age" style="color:aliceblue ">age is  :</label>
+                <input id="result" name="age" type="text" class="input_area" onmouseout="ageCalculator();">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" >
+                <label for="address" style="color:aliceblue;">Address :</label>
+                <input id="address" name="address" type="text" class="input_area">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" >
+                <label for="email" style="color:aliceblue;">Email :</label>
+                <input id="email" name="email" type="text" class="input_area">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="UserName" style="color:aliceblue;">User Name :</label>
+                <input id="UserName" name="UserName" type="text" maxlength="10" class="input_area">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password" style="color:aliceblue;">Password :</label>
+                <input id="password" name="password" type="password"  class="input_area" >
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2" style="color:aliceblue;">Password Again :</label>
+                <input id="password2" name="password2" type="password" maxlength="15" class="input_area">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-check"><br>
+                <center>
+                <input type="checkbox" name="checkbox" value="check" id="agree" onclick="Enableddl(this)" /> <p class="agree">I have read and agree to the Terms and Conditions.</p></center>  <BR />
+           <center> <button type="submit" id="DDL" disabled="disabled">Login</button> </center>
+        </form>
+    </div>
 </body>
 </html>
