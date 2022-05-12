@@ -1,11 +1,12 @@
 body {
-    background-image: url(background.jpg);
+
     font-family: cursive;
     background-position: center;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: beige;
     
 }
 
@@ -15,7 +16,7 @@ body {
     padding: 20px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
@@ -39,14 +40,26 @@ body {
     flex-direction: column;
     width: 50%;
     margin: auto;
+
 }
+select{
+    box-shadow: 0 5px 12px #1306a1;
+    font-size: 0.8rem;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 106%;
+  
+}
+
 
         .input-control input:focus {
             outline: 0;
         }
 
     .input-control.success input {
-        border-color: #ffffff;
+        border-color: #dd0f0f;
     }
 
     .input-control.error input {

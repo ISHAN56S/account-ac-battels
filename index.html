@@ -11,25 +11,33 @@
 <body>
     <div class="container">
         <form id="form" action="/">
-            <h1>Depresiation  Calculator</h1>
+            <h1>Depreciation  Calculator</h1>
             <div class="input-control">
-                <label for="Asset name" style="color:rgb(0, 115, 215);">Asset name :</label>
+                <label for="Asset name" style="color:rgb(4, 31, 54);">Asset name :</label>
                 <input id="Asset" name="Asset" type="text"  class="input_area">
                 <div class="error"></div>
             </div>
 
             <div class="input-control" >
-                <label for="Cost" style="color:rgb(13, 125, 223) ">Cost of the Asset:</label>
+                <label for="Cost" style="color:rgb(6, 30, 51) ">Cost of the Asset:</label>
                 <input id="Cost" name="Cost" type="text" maxlength="30" class="input_area">
                 <div class="error"></div>
             </div>
 
             <div class="input-control">
-                <label for="Current-value" style="color:rgb(9, 122, 221);">Current Value :</label>
+                <label for="Current-value" style="color:rgb(2, 19, 34);">Current Value :</label>
                 <input id="Current-value" name="Current-value" type="Current-value" class="input_area" style= " color-scheme: dark">
                 <div class="error"></div>
             </div>
-
+            <div class="input-control">
+                <label for="Methods" style="color:rgb(2, 19, 34);">Methods :</label>
+                <select name = "Methods" id = "Methods" style= "color-scheme:dark" placeholder="select method">
+                  <option>Select method</option>
+                    <option value="Straight Line basis">Straight Line basis</option>
+                    <option value="Reducing balance basis">Reducing balance basis</option>
+                    </select>
+                <div class="error"></div>
+            </div>
             
 
             <div class="input-check"><br>
