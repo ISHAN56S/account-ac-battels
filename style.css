@@ -52,7 +52,27 @@ select{
     flex-direction: column;
     width: 106%;
   
+    
 }
+
+
+select input:focus{
+    outline: 0;
+}
+
+select.success input{
+    border-color: #d30909;
+}
+select.error input{
+    background-color: rgba(255, 0, 0, 0.12) ;
+}
+.select .error {
+    color: #ff3860;
+    font-size: 15px;
+    height: 13px;
+    text-align: end;
+}
+
 
 
         .input-control input:focus {
